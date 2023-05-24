@@ -1,4 +1,4 @@
-region                  = "us-east-1"
+region                  = "ap-south-1"
 project_name            = "LUIT-week-24"
 vpc_cidr                = "10.0.0.0/16"
 public_subnet1_az1_cidr = "10.0.1.0/24"
