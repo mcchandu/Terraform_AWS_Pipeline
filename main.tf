@@ -1,12 +1,3 @@
-# terraform {
-#   backend "s3" {
-#     bucket = "aws-pipeline13579"
-#     key    = "state/terraform.tfstate"
-#     region = "us-east-1"
-#   }
-# }
-
-
 module "vpc" {
   source                  = "./vpc"
   project_name            = var.project_name
